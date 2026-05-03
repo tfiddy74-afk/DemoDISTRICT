@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Demo District</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #000, #0a0a0a, #111);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: #00f5ff;
+  text-shadow: 0 0 20px #00f5ff;
+}
+
+.logo {
+  width: 250px;
+  margin: 20px;
+}
+
+.divisions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  border: 1px solid #00f5ff;
+  border-radius: 15px;
+  padding: 25px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00f5ff;
+}
+
+button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  background: #00f5ff;
+  color: black;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Demo District</h1>
+<p>3v3 NA League</p>
+
+<img src="logo.png" class="logo">
+
+<div class="divisions">
+  <div class="card">
+    <h2>Nebula Division</h2>
+    <p>Gold - Diamond</p>
+  </div>
+
+  <div class="card">
+    <h2>Orbit Division</h2>
+    <p>Champ - Champ 3</p>
+  </div>
+
+  <div class="card">
+    <h2>Stellar Division</h2>
+    <p>Grand Champ - Grand Champ 3</p>
+  </div>
+
+  <div class="card">
+    <h2>Supernova Division</h2>
+    <p>Grand Champ 3+</p>
+  </div>
+</div>
+
+<button>https://discord.gg/JBUHq5gSzY</button>
+
+</body>
+</html>
